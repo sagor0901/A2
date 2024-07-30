@@ -1,0 +1,529 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared style  */
+.display-flex{
+    display: flex;
+}
+
+.header-section{
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1440px;
+    height: 715px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* all .discription type text style  */
+.dis-color{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400
+}
+/* all colorfull btn style */
+.color-btn{
+    padding: 16px 40px;
+    border-radius: 40px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+}
+
+/* nav related style  */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 57px;
+
+}
+.brand{
+    color: rgb(230, 83, 60);
+    font-size: 2rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.shape-title{
+    font-family: miama;
+}
+.item{
+    padding: 8px 20px;
+    border-radius: 40px;
+    background-color:rgb(230, 83, 60) ;
+}
+.nav-item{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 4px;
+    gap: 60px;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+}
+.h1-p-btn{
+    width: 600px;
+    height: 440px;
+    border: 2px red solid;
+    margin-top: 96px;
+    margin-left: 190px;
+}
+.get-title{
+    font-size: 5.5rem;
+    line-height:90px;
+    font-family: inter;
+    font-weight: 900;
+    color: white;
+}
+.discription{
+    margin-top: 25px;
+}
+.two-btn-container{
+    margin-top: 30px;
+}
+.btn-two{
+    box-sizing: border-box;
+    border-color: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 16px 40px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+/* trainer and 2 box design  */
+.img-btn{
+    border: 2px red solid;
+    width: 350px;
+    height: 580px;
+    margin-left: 167px;
+    margin-top: 30px;
+    margin-right: 215px;
+}
+/* .badge-two{
+
+}
+#btn{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 40px 60px;
+} */
+.container{
+    justify-content: space-between;
+}
+/* all p tag text style  */
+
+/* secend section start here  */
+.all-container{
+    background-color: black;
+}
+.title-img-container{
+    
+    margin: 0 auto;
+    width: 1044px;
+    height: 452px;
+    border: 2px red solid;
+    margin-top: 55px;
+}
+.title-parag{
+    width: 670px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.change-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.img-h1-p-container{
+    width: 230px;
+    height: 275px;
+    border: 2px red solid;
+
+}
+
+.img-border{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px red solid;
+    margin-left: 20px;
+}
+.title-movement{
+    text-align: center;
+    color: white;
+    font-size: 1.02rem;
+    font-weight: 600;
+}
+.we-belive{
+    text-align: center;
+    margin-top: 5px;
+}
+.four-img{
+    display: flex;
+    justify-content: space-around;
+}
+/* third section design here */
+.img-title-container{
+    width: 1060px;
+    height: 370px;
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+}
+.title-container{
+    width: 445px;
+    height: 290px;
+    border: 2px red solid;
+    background-color: rgb(34, 34, 34);
+    margin-top:40px;
+    margin-left:50px ;
+}
+.section-run-title{
+    width: 445px;
+    height: 115px;
+    font-size: 3rem;
+    font-weight: 900;
+    background-color:rgb(34, 34, 34);
+}
+.s-three-description{
+    margin-top: 14px;
+    background-color:rgb(34, 34, 34);
+}
+.s-three-btn{
+    margin-top: 40px;
+}
+.div-img{
+    width: 365px;
+    height: 310px;
+    border:2px red solid;
+    margin-top: 30px;
+}
+
+/* bmi design here  */
+
+.bmi-container{
+    width:671px;
+    height:120px ;
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+/* bmi-cal-container design here  */
+.bmi-cal-container{
+    width: 1440px;
+    height: 490px;
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-top: 88px;
+    background-color: rgba(34, 34, 34);
+}
+.bmi-form{
+    width: 575px;
+    height: 385px;
+    border: 2px red solid;
+    margin-top: 70px;
+}
+.box{
+    grid-template-columns: repeat(2, 1fr);
+    padding: 12px 40px 12px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.select-box{  
+    padding:11px;
+    width: 225px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.place-activity{
+    width: 80%;
+    padding:11px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+}
+.bmi-des{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+/* table design  */
+.header-table{
+    width: 450px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.bmi-header{
+    width: 440px;
+    height: 35px;
+    font-size: 1.8rem;
+    font-weight: 900;
+
+}
+table{
+    width: 310px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 52px;
+
+}
+td, th{
+    border: 1px solid rgb(255, 255, 255);
+}
+tbody{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* team container design start here  */
+.team-container{
+    width: 1045px;
+    height: 780px;
+    margin: 0 auto;
+    border: 2px red solid;
+    margin-top: 90px;
+}
+.team-div{
+    width: 670px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+.team-header{
+    width: 440px;
+    height: 35px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 0 auto;
+}
+.six-img-container{
+    margin-top: 20px;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255, 255, 255, 0.1);
+  border: 2px red solid;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.six-img{
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+}
+
+/* footer design start here  */
+footer{
+    background-color: black;
+}
+.footer-container{
+    width: 1440px;
+    height: 490px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px red solid;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-divs{
+    width: 1060px;
+    height: 250px;
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-heading{
+    width:445px ;
+    height: 175px;
+    border: 2px red solid;
+}
+.fit{
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.started-title{
+    width: 100%;
+    height: 35px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.menu{
+    border: 2px red solid;
+    width: 180px;
+    height: 250px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul a {
+    text-decoration: none;
+}
+.link-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.menu-text{
+    margin-top: 10px;
+}
+.last-parag{
+    width: 320px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+
+
+/* responsive start here  */
+@media screen and (max-width:576px) {
+    .header-section{
+        width: 390px;
+        height: 1030px;
+        margin-bottom: 0px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nav-item{
+        display: none;
+    }
+    .img-btn{
+        margin: 0 auto;
+
+    }
+    .trainer{
+        width: 350px;
+        height: 580px;
+    }
+    .navbar{
+        display: grid;
+        justify-content: start;
+        margin-left: 20px;
+    }
+    .brand{
+        margin-left: 0px;
+
+    }
+    .h1-p-btn{
+        width: 350px;
+        height: 335px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .get-title{
+        width: 230px;
+        height: 130px;
+        font-size: 2rem;
+        margin-left: 0px;
+        line-height: 35px;
+    }
+    .two-btn-container{
+        width: 350px;
+        height: 50px;
+    }
+    /* .btn-one{
+        width: 170px;
+        height: 50px;
+        /* padding: 16px 40px 16px 40px; */
+    /* } */
+    .btn-two{
+        width: 170px;
+        height: 50px; 
+    }
+    .all-container{
+        margin-top: 0px;
+    }
+    .six-img-container{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        order: 2;
+    }
+    .bmi-container{
+        width: 350px;
+        height: 125px;
+    }
+    .bmi-cal-container{
+        display: grid;
+        width: 100px;
+    }
+    .four-img{
+        width: 300px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title-parag{
+        width: 320px;
+        height: 125px;
+    }
+    .change-title{
+        width: 315px;
+        font-size: 1.8rem;
+    }
+    .title-img-container{
+        width: 230px;
+        height: 1215px;
+        order: 2;
+        margin: 0 auto;
+    }
+    .img-title-container{
+        display: grid;
+        width: 350px;
+        height: 530px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .div-img{
+        width:285px ;
+        height: 170px;
+    }
+    .title-container{
+        width: 290px;
+        height: 265px;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    .section-run-title{
+        width: 290px;
+        height: 75px;
+        font-size: 2rem;
+    }
+}
