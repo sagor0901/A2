@@ -544,8 +544,7 @@ footer{
         height: 75px;
         font-size: 2rem;
     }
-}
-
+    
 /* bmi responsive  */
 .bmi-container{
     width: 350px;
@@ -597,4 +596,5 @@ form{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     order: 2;
+}
 }
