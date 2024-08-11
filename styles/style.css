@@ -105,12 +105,43 @@
 }
 /* trainer and 2 box design  */
 .img-btn{
+    position: relative;
     border: 2px red solid;
     width: 350px;
     height: 580px;
     margin-left: 167px;
     margin-top: 30px;
     margin-right: 215px;
+    text-align: center;
+    padding-top: 50px;
+}
+.trainer{
+    width: 100%;
+    height: auto;
+}
+.overlay-text{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+}
+.workout-videos.{
+    width: 155px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.video-tutorials{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 /* .badge-two{
 
@@ -240,6 +271,7 @@
     margin: 0 auto;
     margin-top: 88px;
     background-color: rgba(34, 34, 34);
+    justify-content: space-around;
 }
 .bmi-form{
     width: 575px;
@@ -335,7 +367,14 @@ tbody{
   border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+}
+.img-container{
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
 }
 .six-img{
     width: 325px;
@@ -456,32 +495,10 @@ footer{
         width: 350px;
         height: 50px;
     }
-    /* .btn-one{
-        width: 170px;
-        height: 50px;
-        /* padding: 16px 40px 16px 40px; */
-    /* } */
-    .btn-two{
-        width: 170px;
-        height: 50px; 
-    }
-    .all-container{
+    /* .all-container{
         margin-top: 0px;
-    }
-    .six-img-container{
-        margin-top: 60px;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        order: 2;
-    }
-    .bmi-container{
-        width: 350px;
-        height: 125px;
-    }
-    .bmi-cal-container{
-        display: grid;
-        width: 100px;
-    }
+    } */
+    /* four img responsive here  */
     .four-img{
         width: 300px;
         display: grid;
@@ -490,6 +507,7 @@ footer{
     .title-parag{
         width: 320px;
         height: 125px;
+        margin-top: 10px;
     }
     .change-title{
         width: 315px;
@@ -526,4 +544,57 @@ footer{
         height: 75px;
         font-size: 2rem;
     }
+}
+
+/* bmi responsive  */
+.bmi-container{
+    width: 350px;
+    height: 125px;
+}
+.bmi-title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.header-table{
+    margin: 0 auto;
+}
+.bmi-header{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.bmi-cal-container{
+    width: 395px;
+    height: 775px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* width: 100px; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+table{
+    margin-top: 0px;
+}
+.bmi-form{
+    width: 355px;
+    height: 395px;  
+    margin-top: 10px; 
+}
+.box{
+    width: 100px;
+}
+.select-box{
+    width: 165px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+/* six img section responsive  */
+.six-img-container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    order: 2;
 }
