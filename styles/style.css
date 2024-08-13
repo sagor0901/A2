@@ -24,7 +24,7 @@
 
 .header-section{
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     max-width: 1440px;
     height: 715px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -392,6 +392,7 @@ footer{
     background-color: black;
 }
 .footer-container{
+    border-radius: 5px;
     width: 1440px;
     height: 490px;
     margin: 0 auto;
@@ -650,6 +651,9 @@ form{
     height: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+}
+.menu{
+    margin-top: 30px;
 }
 .footer-heading{
     width: 95%;
